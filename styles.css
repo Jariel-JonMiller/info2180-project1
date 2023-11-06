@@ -57,6 +57,16 @@ main {
     float: right;
 }
 
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about h3 {
+    font-size: 21px;
+    color: #48BB78;
+}
+
 .cards {
     max-width: fit-content;
     display: grid;
@@ -67,12 +77,16 @@ main {
 
 .card {
     border-style: groove;
-    border-color: red;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: gainsboro;
     padding: 10px;
 }
 
 .testing {
     column-span: all;
+    background-color: #4A5568;
+    color: #fff;
     padding: 70px 0px;
 }
 
@@ -82,7 +96,7 @@ main {
 }
 
 .cta {
-    background: #2db34a;
+    background-color: #48BB78;
     border-radius: 5px;
     color: #fff;
     margin-top: 50px;
@@ -94,6 +108,10 @@ main {
     /*height: 10px; */
     float: right;
     margin-bottom: 5px;
+}
+
+.stories {
+    color: #5A67D8;
 }
 
 .stories article img {
@@ -108,18 +126,30 @@ article {
     padding-bottom: 50px;
 }
 
+.article-body h3 {
+    font-size: 18px;
+}
+
 .newsletter {
+    background-color: #48BB78;
+    color: #fff;
     display: flex;
     justify-content: center;
     justify-items: center;
 }
 
-.nwsletter h3 {
+.newsletter h3 {
     align-content: center;
+}
+
+button {
+    background-color: #5A67D8;
 }
 
 footer {
     grid-column: span 2;
+    background-color: #4A5568;
+    color: white;
 }
 
 .container {
